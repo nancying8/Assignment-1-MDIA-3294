@@ -25,5 +25,5 @@ function Content (){
     );
 }
 
-// export Content components to used on App.jsx
+// export Content component to used on App.jsx
 export default Content;
