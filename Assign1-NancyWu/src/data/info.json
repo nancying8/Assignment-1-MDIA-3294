@@ -1,0 +1,85 @@
+[
+  
+    {
+        "id": 1,
+        "title":"Siberian Husky",
+        "name": "Ghost",
+        "info": "1 year old, male",
+        "colour": "Black and white",
+        "size": "Medium",
+        "temperament": "Friendly, energetic, loves outdoor activities and independent but social",
+        "images": "src/assets/SiberianH.jpeg"
+      },
+      {
+        "id": 2,
+        "title":"Pit Bull",
+        "name": "Hulk",
+        "info": "1 year old, male",
+        "colour": "Golden and white",
+        "size": "Medium to large",
+        "temperament": "Loyal, affectionate, protective and loves to play",
+        "images": "src/assets/pittB.jpeg"
+      },
+      {
+        "id": 3,
+        "title":"Rottweiler",
+        "name":"Bear",
+        "info": "5 years old, male",
+        "colour": "Black and brown",
+        "size": "large",
+        "temperament": "Confident, protective, calm and excellent guard",
+        "images": "src/assets/rottweiler.jpeg"
+      },
+      {
+        "id": 4,
+        "title":"Poodle",
+        "name":"Lady",
+        "info": "3 years old, female",
+        "colour": "Cream",
+        "size": "small to large",
+        "temperament": "Intellegent, friendly, active and social",
+        "images": "src/assets/poodle.jpeg"
+      },
+      {
+        "id": 5,
+        "title":"Samoyed",
+        "name": "Sammy",
+        "info": "2 years old, female",
+        "colour": "White",
+        "size": "Medium to large",
+        "temperament": "Playful, gentle, lovely and cheerful",
+        "images": "src/assets/samoyed.jpeg"
+      },
+      {
+        "id": 6,
+        "title":"Golden Retriever",
+        "name": "Cinnamon",
+        "info": "2 years old, male",
+        "colour": "Golden",
+        "size": "Large",
+        "temperament": "Friendly, intelligent, lovely, playful and loyal ",
+        "images": "src/assets/goldenR.jpeg"
+      },
+      {
+        "id": 7,
+        "title":"Shiba Inu",
+        "name": "Shibby",
+        "info": "3 years old, female",
+        "colour": "Golden",
+        "size": "Small to medium",
+        "temperament": "Independent, bold, confident, loyal and affectionate",
+        "images": "src/assets/shibaI.jpeg"
+      },
+      {
+        "id": 8,
+        "title":"Havanese",
+        "name": "Bella",
+        "info": "1 year old, female",
+        "colour": "White and black",
+        "size": "Medium",
+        "temperament": "Playful, afectionate, lovely and  friendly",
+        "images": "src/assets/havanese.jpeg"
+      }
+      
+]
+
