@@ -4,9 +4,7 @@ import Header from "./Header"; // import the component "Header" where it is loca
 import Banner from "./Banner"; // import the component "Banner" first content on the page with little introduction
 import Content from "./Content"; // import the component "Content" it has a little introduction of the page
 import Footer from "./Footer"; // import the compoenent "footer" it similar to "Header" has same info and locate at the bottom of the page
-import info from "./data/info.json" // import data from a JSON file to be used for dog card information
-
-
+import from "./data/info.json" // import data from a JSON file to be used for dog card information
 
 function App() {
 
@@ -36,10 +34,10 @@ function App() {
 
   return (
     // This is the order of the components are place and order to show on the page.
-    //  the Header component at the top
+    // the Header component at the top
     // the Banner component is the next one, same for Card and Footer.
-    // use Tailwind to add colour, margin, size and grid to make responsive
-    //  adding grid cols-1 as default size, large cols-1, mediun size md:cols-2 and small sm: cols-1 with reduce size and  organize images
+    // use Tailwind CSS to add colour, margin, size and grid to make responsive
+    // adding grid cols-1 as default size, large cols-1, mediun size md:cols-2 and small sm: cols-1 with reduce size and  organize images
     <>
     <Header />
     <Banner />
@@ -63,5 +61,5 @@ function App() {
   )
 }
 
-// export App components to used on Main.jsx
+// export App component to used on Main.jsx
 export default App
