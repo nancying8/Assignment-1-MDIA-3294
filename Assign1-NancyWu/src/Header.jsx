@@ -21,5 +21,5 @@ function Header (){
 
 }
 
-// export Header components to used on App.jsx
+// export Header component to used on App.jsx
 export default Header;
