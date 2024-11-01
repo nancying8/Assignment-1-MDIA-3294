@@ -1,8 +1,8 @@
 import React, { useState } from "react"; //import React to use JSX and component features
-import IonIcon from "@reacticons/ionicons"; // import icon from IonIcon to use "start" on the favourite button
+import IonIcon from "@reacticons/ionicons"; // import icon from IonIcon to use "star" on the favourite button
 
 function Card({ card, star, handleFavClick }) {
-  // Initialize the favorite status and count
+  // initialize the favorite status and count
   const [isFavorite, setIsFavorite] = useState(star.includes(card.id)); // checks if card is already favoruited
   const [count, setCount] = useState(isFavorite ? 1 : 0); // start with 1 if it is already favourited, otherwise 0
 
@@ -17,9 +17,10 @@ function Card({ card, star, handleFavClick }) {
     <div className="flex bg-white rounded-lg shadow-md overflow-hidden"> 
       <img src={card.images} className="w-72 h-full object-cover" alt={card.title} />
 
+    {/*use the handleClick function to toggle favourite and count */}
       <button
+        onClick={handleClick} 
         className="flex absolute m-3 text-black text-3xl items-center"
-        onClick={handleClick} // use the handleClick function to toggle favorite and count
       >
         {/*the star icon  */}
         {isFavorite ? <IonIcon name="star" /> : <IonIcon name="star-outline" />}
@@ -52,6 +53,6 @@ function Card({ card, star, handleFavClick }) {
   );
 }
 
-// export Card components to used on APP.jsx
+// export Card component to used on APP.jsx
 export default Card;
 
